@@ -1,0 +1,120 @@
+@import '../../../../theme/custom_variable';
+
+.ion-select-custom {
+    --padding-start: 0px;
+}
+
+.select-text {
+    width: 300px;
+}
+
+.ion-datetime-custom {
+    --padding-start: 0px;
+}
+
+ion-content {
+    --padding-end: 10px;
+    --padding-start: 10px;
+    --padding-top: 20px;
+}
+
+ion-range {
+    width: 100%;
+}
+
+.gender-padding-left {
+    padding-left: 25px;
+}
+
+.label-padding-left {
+    padding-left: 5px;
+}
+
+.label-padding-top {
+    margin-top: 10px;
+}
+
+.underline-text-decorate {
+    text-decoration: underline;
+}
+.occasions {
+    padding: 3px;
+}
+.align-self-center {
+    display: flex;
+    align-self: center;
+}
+
+.range-div-padding-top {
+    padding-top: 20px;
+}
+
+.grey-text {
+    color: grey;
+}
+
+.margin-bottom-characteristics {
+    margin-bottom: 30px;
+}
+
+.margin-bottom-connections {
+    margin-bottom: 10px;
+}
+
+.delete-contact {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.connections {
+    padding: 3px;
+}
+
+.characteristics {
+    padding: 3px;
+}
+
+.interests {
+    padding: 3px;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+}
+
+.auto-height {
+    height: 100px;
+}
+
+.profile-img-cover {
+    width: 130px;
+    height: 130px;
+}
+
+.occasions-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+}
+
+.dark-text {
+    --button-color: $color_grey_dark;
+}
+
+.input-label-custom {
+    display: flex;
+}
+
+.relation-ship-width {
+    max-width: 100% !important;
+}
+
+.padding-content {
+    padding: 100 16px
+}

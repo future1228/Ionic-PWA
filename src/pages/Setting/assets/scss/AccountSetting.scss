@@ -1,0 +1,22 @@
+.account-setting-icon-font-size {
+  font-size: 30px;  
+}
+
+.padding-content {
+  --padding-start: 30px;
+  --padding-end: 30px;
+  --padding-top: 30px;
+  --padding-bottom: 30px;
+}
+
+.account-setting-item {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.account-setting-version {
+  width: 100%;
+  position: absolute;
+  bottom:60px;
+  text-align: center;
+}

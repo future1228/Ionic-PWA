@@ -1,0 +1,15 @@
+# Query variables
+{
+    "userId": "2fb1c8e4-42a4-43a6-a337-b8cc52c83d3f"
+}
+
+query ContactList($userId: uuid!) {
+  Contact(where: {userId: {_eq: $userId}, state: {_eq: "active"}}, order_by: {created: desc}) {
+    id
+    User: userByUseridcontact {
+      name
+      image
+    }
+  }
+}
+

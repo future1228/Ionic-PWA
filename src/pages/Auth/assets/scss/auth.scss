@@ -1,0 +1,48 @@
+@import '../../../../theme/custom_variable';
+
+.signin-button {
+  // --border-radius: 10px;
+  font-size: 20px;
+  height: 50px;
+}
+
+.or-seperator {
+  text-align: center;
+}
+
+.btn-separator {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+  line-height: .1em;
+  font-weight: 300;
+  margin-bottom: 30px!important;
+  margin-top: 30px !important;
+}
+
+.btn-separator span {
+  padding: 0 10px;
+  background: #fff;
+  color: #606060;
+}
+
+.singup-header-text {
+  --padding-top: 20px;
+}
+
+.signup-facebook {
+  --background: red;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+.signin-with-facebook {
+  color: $color_grey_very_dark;
+}
+
+.facebook-icon-size {
+  font-size: 20px;
+  margin-right: 10px;
+}

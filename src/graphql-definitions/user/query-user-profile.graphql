@@ -1,0 +1,19 @@
+# Query variables
+{
+    "id": "2fb1c8e4-42a4-43a6-a337-b8cc52c83d3f"
+}
+
+query UserProfile($id: uuid!) {
+  User_by_pk(id: $id) {
+    id
+    image
+    name
+    gender
+    city
+    userRelationshipStatusId
+    children
+  }
+}
+
+
+

@@ -1,0 +1,28 @@
+# Query variables
+{
+  "contactId": "652d94bb-64ff-4616-b768-4843c90b68be"
+}
+
+query ContactProfile($contactId: uuid!) {
+  Contact:Contact_by_pk(id: $contactId) {
+    id
+    events
+    User {
+      id
+      image
+      name
+      gender
+      city
+      userRelationshipStatusId
+      children
+      travelRadius
+      interests
+      characteristics
+      email
+      phone
+      facebookAccountName
+      instagramAccountName
+      whatsappPhoneNumber
+    }
+  }
+}

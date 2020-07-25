@@ -1,0 +1,133 @@
+@import '../../../../theme/custom_variable';
+
+.background-image-1 {
+    background: url('/assets/imgs/background.jpg') no-repeat center;
+    text-align: center;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.height-6 {
+    height: 60%;
+}
+.height-4 {
+    height: 39%;
+}
+.font-10 {
+    font-size: 10px;
+}
+.font-15 {
+    font-size: 15px;
+}
+.footer-notice {
+    color: $color_grey_dark !important;
+    font-size: 14px;
+}
+.footer-notice > p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.footer-notice > a {
+    text-decoration: underline;
+}
+ion-slides {
+    height: 60%;
+}
+.swiper-slide {
+    display: block;
+}
+.swiper-slide h2 {
+    margin-top: 2.8rem;
+}
+.swiper-slide img {
+    max-height: 50%;
+    max-width: 80%;
+    margin: 60px 0 40px;
+    pointer-events: none;
+}
+b {
+    font-weight: 500;
+}
+p {
+    padding: 0 40px;
+    line-height: 1.5;
+}
+p b {
+    color: var(--ion-text-color, #000000);
+}
+.position-relative {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.custom-height {
+    height: 100%;
+}
+.bottom-content {
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    justify-content: center;
+    background: transparent;
+    align-items: center;
+    z-index: 2;
+}
+ion-content {
+    --padding-top: 0px !important;
+    --padding-end: 0px !important;
+    --padding-start: 0px !important;
+    --padding-bottom: 0px !important;
+    --over-flow: hidden;
+}
+.background-image-full-screen {
+    position:relative;
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.background-image-full-screen:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 100%;
+    background: linear-gradient($color_grey_very_dark 0%, transparent 20%, transparent 60%, $color_grey_very_dark 100%);
+}
+.slider-discription {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 30%;
+    color: white;
+}
+.get-start-button {
+    width: 70%;
+    margin: auto;
+    --background: #ff1f31;
+    --background-activated: rgb(229, 147, 147);
+    font-weight: normal !important;
+    --border-radius: 20px;
+}
+.get-start-title {
+    font-size: 30px;
+    font-weight: normal;
+    color: #ffffff;
+}
+.subtitle {
+    color: $color_grey_medium;
+    font-size: 16px;
+}
+.brand-image {
+    height: 100%;
+}
+
+.brand-title {
+    margin-right: 5%;
+    padding-left: 15px;
+    padding-right: 15px;
+}

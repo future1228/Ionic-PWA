@@ -1,0 +1,11 @@
+# Query variables
+{
+  "language": "$.en"
+}
+
+query UserRelationshipStatus ($language: String!) {
+  UserRelationshipStatus(where: {state: {_eq: "active"}}) {
+    id
+    name: names(path: $language)
+  }
+}

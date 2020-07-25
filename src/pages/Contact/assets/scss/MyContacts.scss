@@ -1,0 +1,82 @@
+@import '../../../../theme/custom_variable';
+
+.padding-header {
+  padding: 0 16px
+}
+
+
+
+ion-content {
+    --overflow: scroll;
+}
+
+ion-tab-button {
+  background: $color_grey_light;
+}
+
+/* ToDo: Background is not correctly applied */
+ion-toolbar {
+  --background: var($color_grey_light);
+}
+
+.grid-img {
+  position: relative;
+ 
+}
+
+.grid-img-heigh {
+  height: 160px;
+}
+
+.grid-img-button {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+}
+
+.img-auto {
+  display: block;
+  margin: auto;
+}
+
+.height-140 {
+  height: 140px;
+}
+
+.card-effect {
+  border-radius: 6px;
+}
+
+.grid-container {
+  width: 95%;
+  margin: auto;
+}
+
+.empty-img {
+  background-color: #e8ecf0;
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+  border: 2px;
+  border-style: dotted;
+  border-color: $color_grey_dark;
+}
+
+.pencil-icon {
+  color: $color_red;
+}
+
+.bottom-circle-icon {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-shadow-full-screen {
+  box-shadow: 1px 1px 1px grey
+}
+

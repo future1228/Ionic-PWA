@@ -1,0 +1,11 @@
+# Query variables
+{
+  "language": "$.en"
+}
+
+query ContactRelationshipTypes ($language: String!) {
+  ContactRelationshipType(where: {state: {_eq: "active"}}) {
+    id
+    name: names(path: $language)
+  }
+}

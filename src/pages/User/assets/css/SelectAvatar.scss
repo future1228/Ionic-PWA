@@ -1,0 +1,18 @@
+@import '../../../../theme/custom_variable';
+
+.not-selected {
+    filter: grayscale(1);
+}
+
+.avatar-select-icon-size {
+    max-width: 90%;
+    height: auto;
+}
+
+.padding-5 {
+    padding: 5;
+}
+
+.selected-icon-background {
+    background-color: $color_red;
+}
