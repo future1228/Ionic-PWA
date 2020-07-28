@@ -134,16 +134,16 @@ const EditProfile: React.FC<{history}> = (props) => {
           </IonCol>
         </IonRow>
 
-        // <IonRow>
-        //   <IonCol size="3" className="align-item-center">
-        //     <IonLabel>City</IonLabel>
-        //   </IonCol>
-        //   <IonCol size="9">
-        //     <IonItem>
-        //       <IonInput value={state.city} clearInput={true} className="" onIonChange={(e) => onChangeCity(e)}></IonInput>
-        //     </IonItem>
-        //   </IonCol>
-        // </IonRow>
+        <IonRow>
+          <IonCol size="3" className="align-item-center">
+            <IonLabel>City</IonLabel>
+          </IonCol>
+          <IonCol size="9">
+            <IonItem>
+              <IonInput value={state.city} clearInput={true} className="" onIonChange={(e) => onChangeCity(e)}></IonInput>
+            </IonItem>
+          </IonCol>
+        </IonRow>
 
         <IonRow>
           <IonCol size="3" className="align-item-center">
