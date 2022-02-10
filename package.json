@@ -40,7 +40,7 @@
     "i18next-browser-languagedetector": "^4.3.0",
     "i18next-http-backend": "^1.0.15",
     "ionicons": "^5.0.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "phonegap-plugin-barcodescanner": "^8.1.0",
     "re-carousel": "^2.4.0",
     "react": "^16.13.0",
